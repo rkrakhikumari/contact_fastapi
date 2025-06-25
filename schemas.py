@@ -18,3 +18,9 @@ class ContactCreate(BaseModel):
     email : str 
     phone_num : str
     note : str
+
+
+
+class ChangePassword(BaseModel):
+    old_password: str
+    new_password: str

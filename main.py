@@ -3,7 +3,6 @@ from database import Base, engine
 from routes import user, contact
 
 
-
 app = FastAPI()
 
 Base.metadata.create_all(bind=engine)
